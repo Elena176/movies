@@ -1,0 +1,14 @@
+.logo {
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+
+  &__wrapper_decor{
+    padding-right: 5px;
+
+    > span {
+      color: var(--color-decor);
+    }
+  }
+}
