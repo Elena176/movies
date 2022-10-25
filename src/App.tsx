@@ -1,22 +1,15 @@
 import React, { ReactElement } from 'react';
+
 import 'App.scss';
+import AppHeader from './ui/component/AppHeader/AppHeader';
 
 const App = (): ReactElement => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <AppHeader />
+      <div style={{ height: '100vh' }}>1</div>
+      <div style={{ height: '100vh' }}>2</div>
+      <div style={{ height: '100vh' }}>3</div>
     </div>
   );
 };

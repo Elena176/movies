@@ -1,3 +1,5 @@
+@import "ui/assets/styles/vars";
+
 html {
   box-sizing: border-box;
   height: 100%;
@@ -11,5 +13,11 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+  border: none;
 }
